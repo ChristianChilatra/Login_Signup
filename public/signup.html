@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style_sign.css">
+    <title>FOTOTOUR</title>
+    <link rel="icon" type="image/png" href="../Fotos/avion.jpg">
+</head>
+<body>
+    <div id="signup">
+        <img id="icon"src="../Fotos/avion.jpg">
+        <div id="signup_div">
+            <section class="signup_section">
+                    <h1>INICIO SESION</h1>                    
+                    <form action="../php/verify_signup.php" method="POST">
+                        <input type="text" name="user" placeholder="Ingrese Usuario">
+                        <input type="password" name="pass" placeholder="Ingresa tu contraseña">
+                        <input type="password" name="pass2" placeholder="Confirma tu contraseña">
+                        <input type="text" name="mail" placeholder="Confirma tu Correo">
+                        <input type="submit" value="Regristrarme" id="bt_regis">
+                        <a href="../index.html">Inicias sesion</a>
+                    </form>
+                </section>
+        </div>            
+    </div>
+</body>
+</html>

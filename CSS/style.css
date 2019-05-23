@@ -1,0 +1,114 @@
+body{
+
+    background-image: url(../Fotos/fondo.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+body header{
+    display: flex;
+    justify-content: center;
+}
+.cierresesion{
+    width: 122px;
+    height: 22px;
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+.cierresesion input[type="submit"]{
+    background-color:rgb(57, 59, 75); 
+    border: none;
+    width: 122px;
+    height: 22px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    color: white;
+    font-weight:700;
+    cursor: pointer;
+    outline: none;
+}
+.cierresesion input[type="submit"]:hover,.cierresesion input[type="submit"]:focus.cierresesion input[type="submit"]:active {
+    transform: scale(1.1);
+}
+.cierresesion input[type="submit"]:hover:before,.cierresesion input[type="submit"]:focus:before,.cierresesion input[type="submit"]:active:before {
+    transform: scale(-0.8);
+}
+.navegacion{
+    height: 260px;
+    width: 400px;
+}
+.navegacion img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+
+.navegacion nav[id="nav1"]{
+    background-color: rgb(57, 59, 75);
+	width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 230px;
+    top: 67px;
+    transition-duration: 0.3s;
+}
+.navegacion nav[id="nav2"]{
+    background-color: rgb(57, 59, 75);
+	width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 260px;
+    top: 67px;
+    transition-duration: 0.3s;
+}
+.navegacion nav[id="nav3"]{
+    background-color: rgb(57, 59, 75);
+	width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 240px;
+    top: 67px;
+    transition-duration: 0.3s;
+}
+.navegacion nav:hover,.navegacion nav:focus,.navegacion nav:active {
+    transform: translateX(10px);
+}
+.navegacion nav:hover:before,.navegacion nav:focus:before,.navegacion nav:active:before {
+    transform: translateX(-10px);
+}
+.navegacion ul li{
+    padding: 6px;
+}
+.navegacion ul li a{
+    text-decoration-line: none;
+    color: white;
+}
+.textpr{
+    width: 600px;
+    height: 320px;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 5);
+}
+.textpr section h1{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.textpr section article p{
+    padding: 30px;
+    text-align: center;
+}

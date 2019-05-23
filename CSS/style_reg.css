@@ -1,0 +1,170 @@
+body{
+
+    background-image: url(../Fotos/fondo.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+body header{
+    display: flex;
+    justify-content: center;
+}
+.cierresesion{
+    width: 122px;
+    height: 22px;
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+.cierresesion input[type="submit"]{
+    background-color:rgb(57, 59, 75); 
+    border: none;
+    width: 122px;
+    height: 22px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    color: white;
+    font-weight:700;
+    cursor: pointer;
+    outline: none;
+}
+.cierresesion input[type="submit"]:hover,.cierresesion input[type="submit"]:focus.cierresesion input[type="submit"]:active {
+    transform: scale(1.1);
+}
+.cierresesion input[type="submit"]:hover:before,.cierresesion input[type="submit"]:focus:before,.cierresesion input[type="submit"]:active:before {
+    transform: scale(-0.8);
+}
+.navegacion{
+    height: 260px;
+    width: 400px;
+}
+.navegacion img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+
+.navegacion nav[id="nav1"]{
+    background-color: rgb(57, 59, 75);
+	width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 230px;
+    top: 67px;
+    transition-duration: 0.3s;
+}
+.navegacion nav[id="nav2"]{
+    background-color: rgb(57, 59, 75);
+	width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 260px;
+    top: 67px;
+    transition-duration: 0.3s;
+}
+.navegacion nav[id="nav3"]{
+    background-color: rgb(57, 59, 75);
+	width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 240px;
+    top: 67px;
+    transition-duration: 0.3s;
+}
+.navegacion nav:hover,.navegacion nav:focus,.navegacion nav:active {
+    transform: translateX(10px);
+}
+.navegacion nav:hover:before,.navegacion nav:focus:before,.navegacion nav:active:before {
+    transform: translateX(-10px);
+}
+.navegacion ul li{
+    padding: 6px;
+}
+.navegacion ul li a{
+    text-decoration-line: none;
+    color: white;
+}
+.formulario{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 5);
+}
+.formulario table{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.formulario table input[type="text"],
+.formulario table input[type="password"],
+.formulario table input[type="email"],
+.formulario table input[type="number"],
+.formulario table input[type="date"]{
+    margin: 2px;
+    border: none;
+    text-align: center;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(56, 62, 65);
+    outline: none;
+}
+.formulario table input[type="submit"]{
+    width: 100px;
+    height: 22px;
+    margin: 10px;
+    border: none;
+    text-align: center;
+    padding-bottom: 2px;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.formulario table input[type="submit"]:hover,.formulario table input[type="submit"]:focus,.formulario table input[type="submit"]:active {
+    transform: scale(1.1);
+}
+.formulario table input[type="submit"]:hover:before,.formulario table input[type="submit"]:focus:before,.formulario table input[type="submit"]:active:before {
+    transform: scale(0);
+}
+.buttom_verify{
+    position: absolute;
+    bottom: 200px;
+    left: 950px;
+	width: 100px;
+    height: 100px;
+	background-color: rgb(52, 73, 94);
+	border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(3, 3, 3, 3);
+}
+.buttom_verify label a{
+    text-decoration: none;
+    color: white;
+    font-family: "Latin Modern Roman 10";
+    font-style: italic;
+}
+.buttom_verify:hover,.buttom_verify:focus,.buttom_verify:active {
+    transform: scale(1.05);
+}
+.buttom_verify:hover:before,.buttom_verify:focus:before,.buttom_verify:active:before {
+    transform: scale(0);
+}
+

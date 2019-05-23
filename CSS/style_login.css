@@ -1,0 +1,83 @@
+body{
+    background-image: url(../Fotos/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+#login{
+    display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+}
+#icon{
+    width: 150px;
+    height: 150px;
+    position: relative;;
+    left: 610px;
+    top: 80px;
+}
+h1{
+    text-align: center;
+}
+
+#login_div{
+    width: 300px;
+    height: 330px;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 5);
+
+}
+.login_section{
+    position: relative;
+    top: 50px;  
+    text-align: center; /* center checkbox horizontally */
+    vertical-align: middle;
+}
+.login_section form input[type="text"],
+.login_section form input[type="password"]{
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid rgb(83, 95, 100);
+    outline: none
+}
+.login_section form input[type="submit"]{
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    border: none;
+    outline: none;
+    transform: perspective(1px) translateZ(0);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.login_section form a{
+    display: block;
+    text-decoration: none;
+    padding-top: 40px; 
+    padding-right: 200px;
+    color: black;
+}
+.login_section form input[type="submit"]:hover, .login_section form input[type="submit"]:focus, .login_section form input[type="submit"]:active {
+    transform: translateY(10px);
+}
+.login_section form input[type="submit"]:before, .login_section form input[type="submit"]:focus:before, .login_section form input[type="submit"]:active:before {
+    transform: translateY(-10px);
+}
